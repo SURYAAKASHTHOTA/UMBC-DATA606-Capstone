@@ -11,7 +11,7 @@
 
 ## Summary
 
-Highly motivated student seeking an internship opportunity with a forward-thinking and innovative company. With a strong foundation in Data Science, I am eager to apply my knowledge and passion to contribute to your team's success. My commitment to learning and adaptability allows me to quickly grasp new concepts and work effectively in a collaborative environment. I bring excellent communication skills, a proactive work ethic, and a track record of academic excellence. Ready to embark on a transformative internship experience that will not only enhance my skill set but also make a meaningful impact on your organization.
+Highly motivated student seeking a full time opportunity with a forward-thinking and innovative company. With a strong foundation in Data Science, I am eager to apply my knowledge and passion to contribute to your team's success. My commitment to learning and adaptability allows me to quickly grasp new concepts and work effectively in a collaborative environment. I bring excellent communication skills, a proactive work ethic, and a track record of academic excellence. Ready to embark on a transformative internship experience that will not only enhance my skill set but also make a meaningful impact on your organization.
 
 ---
 
