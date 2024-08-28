@@ -37,7 +37,7 @@ GPA: 3.24
 **Software Developer – Intern**  
 *Copper Digital Inc.*  
 Dallas, TX  
-*June 2024 – August 2024*
+*June 2024 – September 2024*
 
 - Spearheaded data cleaning and exploratory data analysis for a project that improved model accuracy by 15%.
 - Developed and fine-tuned machine learning models using RNN, CNN, and GAN, contributing to a 10% reduction in prediction error rates.
