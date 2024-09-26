@@ -8,7 +8,7 @@
 
 **GitHub:** [https://github.com/SURYAAKASHTHOTA/UMBC-DATA606-Capstone](https://github.com/AkashThota/UMBC-DATA606-Capstone)
 
-**LinkedIn Profile:** [https://www.linkedin.com/in/akash-thota](https://www.linkedin.com/in/akash-thota)
+**LinkedIn Profile:** [https://www.linkedin.com/in/akash-thota](https://www.llinkedin.com/in/akash-thota-719030296)
 
 ---
 
