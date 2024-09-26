@@ -1,4 +1,4 @@
-# Project Title: Income Prediction Using Adult Dataset
+# Project Title: Income Prediction 
 
 ### Author Name: Akash Thota
 
