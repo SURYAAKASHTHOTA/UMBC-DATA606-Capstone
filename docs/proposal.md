@@ -6,7 +6,7 @@
 
 **Prepared for:** UMBC Data Science Master's Degree Capstone by Dr. Chaojie (Jay) Wang
 
-**GitHub:** [https://github.com/AkashThota/UMBC-DATA606-Capstone](https://github.com/AkashThota/UMBC-DATA606-Capstone)
+**GitHub:** [https://github.com/SURYAAKASHTHOTA/UMBC-DATA606-Capstone](https://github.com/AkashThota/UMBC-DATA606-Capstone)
 
 **LinkedIn Profile:** [https://www.linkedin.com/in/akash-thota](https://www.linkedin.com/in/akash-thota)
 
