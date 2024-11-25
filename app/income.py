@@ -14,7 +14,6 @@ from sklearn.ensemble import RandomForestClassifier
 @st.cache
 def load_data():
     return pd.read_csv('adult.csv')
-)
 
 # Preprocess Dataset
 def preprocess_data(data):
