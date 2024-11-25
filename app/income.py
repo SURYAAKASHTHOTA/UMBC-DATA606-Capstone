@@ -9,11 +9,23 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
+import os
+import pandas as pd
+
+def load_data():
+    file_path = 'adult.csv'  # Adjust to match the relative or absolute path.
+    if os.path.exists(file_path):
+        return pd.read_csv(file_path)
+    else:
+        raise FileNotFoundError(f"File not found at: {file_path}")
+
+data = load_data()
+
 
 # Load Dataset
-@st.cache
-def load_data():
-    return pd.read_csv('adult.csv')  # If in the same directory
+#@st.cache
+#def load_data():
+    #return pd.read_csv('adult.csv')  # If in the same directory
 
 # Preprocess Dataset
 def preprocess_data(data):
