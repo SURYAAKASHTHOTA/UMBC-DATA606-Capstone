@@ -13,7 +13,8 @@ from sklearn.ensemble import RandomForestClassifier
 # Load Dataset
 @st.cache
 def load_data():
-    return pd.read_csv(r'/Users/akashthota/Downloads/adult.csv')
+    return pd.read_csv('adult.csv')
+)
 
 # Preprocess Dataset
 def preprocess_data(data):
