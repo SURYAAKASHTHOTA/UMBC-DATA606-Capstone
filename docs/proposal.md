@@ -165,7 +165,7 @@ These features will be used to predict whether an individual earns `<=50K` or `>
 
 ---
 
-## **3. Exploratory Data Analysis (EDA)**
+## **4. Exploratory Data Analysis (EDA)**
 
 ### **a. Visualizing Relationships Between Variables**
 In this section, we aim to visualize the relationships between various features and the target variable (`Income`). Understanding how the features correlate with the target is essential for selecting relevant features for modeling.
@@ -196,7 +196,7 @@ This visualization shows the distribution of the target variable `Income` (`<=50
 
 
 
-## 4. Model Training and Evaluation
+## 5. Model Training and Evaluation
 
 ### Models Used:
 1. Logistic Regression
@@ -222,7 +222,7 @@ This visualization shows the distribution of the target variable `Income` (`<=50
 
 ---
 
-## 5. Application of Trained Models
+## 6. Application of Trained Models
 
 ### Web App
 A **Streamlit** web app was developed for real-time predictions.  
@@ -237,7 +237,7 @@ A **Streamlit** web app was developed for real-time predictions.
 
 ---
 
-## 6. Conclusion
+## 7. Conclusion
 
 ### Key Takeaways:
 - **XGBoost** emerged as the best model with an accuracy of 87.50%.  
@@ -253,7 +253,7 @@ A **Streamlit** web app was developed for real-time predictions.
 
 ---
 
-## 7. References
+## 8. References
 - [UCI Machine Learning Repository - Adult Dataset](https://archive.ics.uci.edu/ml/datasets/adult)
 - Documentation on Python libraries: scikit-learn, XGBoost, Streamlit.
 - Articles and blogs on data preprocessing and machine learning.
