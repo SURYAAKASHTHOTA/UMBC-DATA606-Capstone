@@ -171,7 +171,7 @@ These features will be used to predict whether an individual earns `<=50K` or `>
 In this section, we aim to visualize the relationships between various features and the target variable (`Income`). Understanding how the features correlate with the target is essential for selecting relevant features for modeling.
 
 - **Visualization:**
-   ![Visualize Relationships Between Variables](./visualize_relationships_between_variables.png)
+   ![Visualize Relationships Between Variables](visualize_relationships_between_variables.png)
 
 ### **b. Boxplot for Outlier Detection**
 Boxplots help in detecting outliers in numerical features such as `Age` and `Hours Per Week`. These outliers could potentially impact the model's performance and should be considered for possible removal or transformation.
