@@ -225,7 +225,8 @@ This visualization shows the distribution of the target variable `Income` (`<=50
 ## 6. Application of Trained Models
 
 ### Web App
-A **Streamlit** web app was developed for real-time predictions.  
+A **Streamlit** web app was developed for real-time predictions. 
+   ![Streamlit Application](app.png) 
 
 #### Features:
 - User-friendly interface for data input (Age, Education, Occupation, etc.).
