@@ -193,22 +193,72 @@ This visualization shows the distribution of the target variable `Income` (`<=50
 
 ---
 
-## **4. Data Splitting**
-
-The dataset was divided into training and testing sets using an 80-20 split. This ensures the model is trained on the majority of the data while reserving a portion for evaluating generalization performance.
-
-```python
-from sklearn.model_selection import train_test_split
-
-# Features (X) and target variable (y)
-X = data.drop(columns=["Income"])  # Assuming 'Income' is the target column
-y = data["Income"]
-
-# Split the data into training (80%) and testing (20%) sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Display the shape of the datasets
-print(f"Training set shape: {X_train.shape}")
-print(f"Testing set shape: {X_test.shape}")
 
 
+
+## 4. Model Training and Evaluation
+
+### Models Used:
+1. Logistic Regression
+2. Random Forest Classifier
+3. Support Vector Machine (SVM)
+4. XGBoost Classifier
+
+### Training Approach:
+- **Train-Test Split:** 80% training, 20% testing.
+- **Hyperparameter Tuning:** Performed GridSearchCV for optimal parameters.
+
+### Evaluation Metrics:
+- Accuracy, Precision, Recall, and F1-Score.
+
+#### Results:
+
+| **Model**            | **Accuracy** | **Precision** | **Recall** | **F1-Score** |
+|-----------------------|--------------|---------------|------------|--------------|
+| Logistic Regression   | 85.70%      | 73.71%        | 60.61%     | 66.52%       |
+| Random Forest         | 85.96%      | 72.90%        | 63.80%     | 68.05%       |
+| SVM                   | 85.73%      | 74.94%        | 58.78%     | 65.88%       |
+| **XGBoost**           | **87.50%**  | **76.42%**    | **67.51%** | **71.69%**   |
+
+---
+
+## 5. Application of Trained Models
+
+### Web App
+A **Streamlit** web app was developed for real-time predictions.  
+
+#### Features:
+- User-friendly interface for data input (Age, Education, Occupation, etc.).
+- Real-time income classification as `<=50K` or `>50K`.
+
+#### Benefits:
+- Simplifies model usage for non-technical users.
+- Facilitates quick decision-making with intuitive outputs.
+
+---
+
+## 6. Conclusion
+
+### Key Takeaways:
+- **XGBoost** emerged as the best model with an accuracy of 87.50%.  
+- Features like education, hours-per-week, and occupation strongly influence income.  
+
+### Limitations:
+- Class imbalance in the dataset affects model performance.  
+- Limited feature set from the dataset; external data could improve predictions.  
+
+### Future Work:
+- Experiment with advanced models like Neural Networks.  
+- Incorporate additional features (e.g., socioeconomic data).  
+
+---
+
+## 7. References
+- [UCI Machine Learning Repository - Adult Dataset](https://archive.ics.uci.edu/ml/datasets/adult)
+- Documentation on Python libraries: scikit-learn, XGBoost, Streamlit.
+- Articles and blogs on data preprocessing and machine learning.
+
+---
+
+**Author:** Akash Thota  
+[GitHub Repository](https://github.com/SURYAAKASHTHOTA/UMBC-DATA606-Capstone) | [LinkedIn Profile](https://www.linkedin.com/in/akash-thota-719030296)  
