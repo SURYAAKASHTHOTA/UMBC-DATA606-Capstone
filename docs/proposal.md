@@ -172,7 +172,7 @@ In this section, we aim to visualize the relationships between various features 
 
 - **Visualization:**
    (visualize_relationships_between_variables.png)
-  <img src = "visualize_relationships_between_variables.png"
+  <img src = "visualize_relationships_between_variables.png">
 
 ### **b. Boxplot for Outlier Detection**
 Boxplots help in detecting outliers in numerical features such as `Age` and `Hours Per Week`. These outliers could potentially impact the model's performance and should be considered for possible removal or transformation.
