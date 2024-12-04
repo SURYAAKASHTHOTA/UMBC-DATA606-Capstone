@@ -14,7 +14,7 @@
 
 **Streamlit APP:** (https://umbc-data606-capstone-cdrqkzurtu8p2ajzug7kjg.streamlit.app/)
 
-**PowerPoint Presentation:** (./FINAL_PRESENTATION.pptx)
+**PowerPoint Presentation:** [presentation](./FINAL_PRESENTATION.pptx)
 
 
 ---
