@@ -10,6 +10,10 @@
 
 **LinkedIn Profile:** [https://www.linkedin.com/in/akash-thota](https://www.linkedin.com/in/akash-thota-719030296)
 
+**Youtube Video:** (https://youtu.be/o4OX8xK0ysQ)
+
+**Streamlit APP:** (https://umbc-data606-capstone-cdrqkzurtu8p2ajzug7kjg.streamlit.app/)
+
 ---
 
 ## 2. Background
